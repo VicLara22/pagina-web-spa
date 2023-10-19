@@ -1,17 +1,17 @@
 import React from 'react'
+import './portada.css'
+import Button from 'react-bootstrap/Button';
 
 function Portada() {
   return (
-    <div>
-        <div>
-            <img src="" alt="" />
+    <div className='container-portada'>
+      <div className='container-portada-img'>
+        <div className='container-portada-title'>
+          <h1>SPA MÉDICO</h1>
+          <p>CENTRO DE MEDICINA ESTÉTICA, BELLEZA Y BIENESTAR</p>
+          <Button variant="light">SABER MAS</Button>
         </div>
-        <div>
-            <img src="" alt="" />
-            <h1>SPA MÉDICO</h1>
-            <p>CENTRO DE MEDICINA ESTÉTICA, BELLEZA Y BIENESTAR</p>
-            <button>SABER MAS</button>
-        </div>
+      </div>
     </div>
   )
 }
