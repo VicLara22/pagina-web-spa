@@ -3,8 +3,8 @@ import data from '../../data/data.json';
 import NavBar from '../../components/navBar/NavBar'
 import Card from '../../components/card/Card'
 import Modals from '../../components/card/modal/Modals';
+import Sections from '../../components/sections/Sections';
 import Portada from '../../components/portada/Portada';
-import Nosotros from '../../components/sections/nosotros/Nosotros';
 
 function Home() {
   const [jsonData, setJsonData] = useState(null);
@@ -25,8 +25,9 @@ function Home() {
   return (
     <div>
       <NavBar />
-      <Portada/>
-      <Nosotros/>
+      <Portada />
+      <Sections />
+
       {jsonData?.map((s) => (
         <Card
           key={s.id}
@@ -39,7 +40,7 @@ function Home() {
         />
       )
       )}
-       {selectedItemId && (
+      {selectedItemId && (
         <Modals
           key={selectedItemId}
           id={selectedItemId}

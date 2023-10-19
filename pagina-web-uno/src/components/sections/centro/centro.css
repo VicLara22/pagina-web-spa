@@ -1,0 +1,32 @@
+.container-centro {
+    padding: 50px;
+    display: inline-flex;
+
+}
+
+.container-centro-img {
+    width: 650px;
+    height: 400px;
+}
+
+.container-centro-img img {
+    width: 650px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.container-centro-text{
+    padding: 80px;
+    width: 800px;
+}
+
+.container-centro-text h1{
+   font-size: 2rem;
+   color: black;
+   margin-bottom: 25px;
+}
+
+.container-centro-text p{
+    font-size: 1rem;
+    color: black;
+ }
