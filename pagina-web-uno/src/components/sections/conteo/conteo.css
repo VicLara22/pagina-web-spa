@@ -1,0 +1,19 @@
+
+.container-conteo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    height: 25vh;
+    background: rgb(253, 214, 188);
+}
+
+h1 {
+    text-align: center;
+    font-size: 5rem;
+}
+
+p {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1rem;
+}
