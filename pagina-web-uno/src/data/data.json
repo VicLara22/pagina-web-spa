@@ -1,0 +1,79 @@
+[
+    {
+        "id": 1,
+        "title": "SPA",
+        "subtitle": "Servicio de SPA",
+        "tipos": [
+            "Masaje Ayurvedico Con Pindas Aromáticas",
+            "Masaje Reductor",
+            "Masajes Sedativos",
+            "Masajes 30'",
+            "Descontracturante y sedativo",
+            "Piedras y pindas",
+            "Masajes Deportivos",
+            "Masajes Descontracturantes",
+            "Masajes con Piedras Calientes"
+        ],
+        "img": "../assets/SPA.jpg"
+    },
+    {
+        "id": 2,
+        "title": "ESTETICA CORPORAL",
+        "subtitle": "SERVICIOS DE ESTÉTICA CORPORAL",
+        "tipos": [
+            "Pulido Corporal: Mejora la suavidad y luminosidad de toda tu piel se complementa con ozonoterapia",
+            "Radiofrecuencia Corporal: Para tensar y activar el colágeno",
+            "Termocell Intelligent: Mantas termicas reductoras",
+            "Tratamiento Reductor: Ultracavitación y presoterapia",
+            "Tratamiento Tensor Pro: Tratamiento combinado radiofrecuencia. Ondas de choque y body up indicado especialmente para zonas de flacidez",
+            "Tratamiento de Celulitis: Ondas de choque y botas de presoterapia"
+        ],
+        "img": "../assets/estetica-corporal.jpg"
+    },
+    {
+        "id": 3,
+        "title": "COSMIATRÍA Y ESTÉTICA FACIAL",
+        "subtitle": "SERVICIOS DE COSMIATRÍA Y ESTÉTICA FACIAL",
+        "tipos": [
+            "Limpieza Facial: Con punta de diamante",
+            "Con espatula ultrasonica",
+            "Limpieza Facial Profunda: Con extracciones",
+            "Peeling Mecánico y Velo de Colágeno"
+        ],
+        "img": "../assets/cosmiatria.jpg"
+    },
+    {
+        "id": 4,
+        "title": "BELLEZA DE MANOS Y PIES",
+        "subtitle": "SERVICIOS DE BELLEZA DE MANOS Y PIES",
+        "tipos": [
+            "Esmaltado tradicional o semipermanente de manos y pies",
+            "Reparación de uñas manos y pies",
+            "Uñas esculpidas"
+        ],
+        "img": "../assets/belleza-de-manos-y-pie.jpg"
+    },
+    {
+        "id": 5,
+        "title": "DEPILACIÓN DEFINITIVA",
+        "subtitle": "SERVICIOS DE DEPILACIÓN DEFINITIVA",
+        "tipos": [
+            "Dermolight Láser Diodo: Equipo de última generación aprobado por Anmat. Trabaja con protocolos y supervisión medica permanente. Triple longitud de onda Sveltia. Todo tipo de vello. Altísima eficacia terapéutica del 80% a la 6 sesión. Tratamiento indoloro con el cabezal Ice Speed"
+        ],
+        "img": "../assets/depilacion-definitiva.jpg"
+    },
+    {
+        "id": 6,
+        "title": "SERVICIOS MÉDICOS",
+        "subtitle": "SERVICIOS DE SERVICIOS MÉDICOS",
+        "tipos": [
+            "Dermatología y Medicina Estética: Peeling médico. Mesoterapia facial y corporal. Mesopeel facial",
+            "Flebología: Tratamiento estético de varices y telangiectasias con esclerosante. Láser o termocoagulación spider",
+            "Medicina y Cirugía Estética: Mesoterapia facial, corporal o capilar.",
+            "Nutrición: Planes nutricionales integrales y a medida para acompañar las terapias. Nutrición detox. Nutrición vegetariana. Nutrición vegana",
+            "Podología: Uñas enfermas o encarnadas. Terapias específicas para patologías del pie"
+        ],
+        "img": "../assets/servicios-medicos.jpg"
+
+    }
+]

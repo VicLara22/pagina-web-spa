@@ -1,0 +1,15 @@
+.container-navBar{
+    height: 80px;
+    width: 100%;
+    background-color: white;
+}
+
+.container-logo-navBar h1{
+color: black;
+font-size: 35px;
+}
+
+.container-title-navBar {
+    display: flex;
+    align-items: center;
+}
