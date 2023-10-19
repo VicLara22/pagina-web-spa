@@ -7,12 +7,12 @@
     background: rgb(253, 214, 188);
 }
 
-h1 {
+.container-conteo-h1 {
     text-align: center;
     font-size: 5rem;
 }
 
-p {
+.container-conteo-p {
     margin-top: 20px;
     text-align: center;
     font-size: 1rem;

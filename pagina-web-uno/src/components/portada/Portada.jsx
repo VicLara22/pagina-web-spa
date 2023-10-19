@@ -7,8 +7,8 @@ function Portada() {
     <div className='container-portada'>
       <div className='container-portada-img'>
         <div className='container-portada-title'>
-          <h1>SPA MÉDICO</h1>
-          <p>CENTRO DE MEDICINA ESTÉTICA, BELLEZA Y BIENESTAR</p>
+          <h1 className='container-portada-title-h1' >SPA MÉDICO</h1>
+          <p className='container-portada-title-p'>CENTRO DE MEDICINA ESTÉTICA, BELLEZA Y BIENESTAR</p>
           <Button variant="light">SABER MAS</Button>
         </div>
       </div>

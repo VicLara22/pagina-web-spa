@@ -34,16 +34,14 @@ function NavBar() {
   return (
     <div className='container-navBar'>
         <div className="container-logo-navBar">
-            <h1>SPA</h1>
+            <h1 className="container-navBar-h1" >SPA</h1>
         </div>
         <div className="container-title-navBar">
-            <ul>
                 {
-                    links.map((t) => {
-                        <li key={t.id}>{t.title}</li>
-                    })
+                    links.map((t) => ( 
+                        <a className="container-title-navBar-a" href={t.link} key={t.id}>{t.title}</a>
+                    ))
                 }
-            </ul>
         </div>
     </div>
   )

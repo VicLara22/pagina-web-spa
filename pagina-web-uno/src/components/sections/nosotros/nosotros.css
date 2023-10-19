@@ -20,13 +20,13 @@
     width: 800px;
 }
 
-.container-nosotros-text h1{
+.container-nosotros-text-h1{
    font-size: 2rem;
    color: black;
    margin-bottom: 25px;
 }
 
-.container-nosotros-text p{
+.container-nosotros-text-p{
     font-size: 1rem;
     color: black;
  }

@@ -2,9 +2,17 @@
     height: 80px;
     width: 100%;
     background-color: white;
+    display: flex;
 }
 
-.container-logo-navBar h1{
+.container-logo-navBar{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 500px;
+}
+
+.container-navBar-h1{
 color: black;
 font-size: 35px;
 }
@@ -12,4 +20,16 @@ font-size: 35px;
 .container-title-navBar {
     display: flex;
     align-items: center;
+    margin-left: auto;
+}
+
+.container-title-navBar-a{
+    font-size: 1rem;
+    margin-right: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+.container-title-navBar-a:hover{
+   cursor: pointer;
 }

@@ -20,13 +20,13 @@
     width: 800px;
 }
 
-.container-centro-text h1{
+.container-centro-text-h1{
    font-size: 2rem;
    color: black;
    margin-bottom: 25px;
 }
 
-.container-centro-text p{
+.container-centro-text-p{
     font-size: 1rem;
     color: black;
  }

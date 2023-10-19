@@ -10,20 +10,20 @@ function Conteo() {
     <Container >
       <Row md={4}>
         <Col>
-          <h1>12</h1>
-          <p>AÑOS DE EXPERIENCIA</p>
+          <h1 className='container-conteo-h1'>12</h1>
+          <p className='container-conteo-p'>AÑOS DE EXPERIENCIA</p>
         </Col>
         <Col xs={6}>
-          <h1>+20 MIL</h1>
-          <p>PACIENTES</p>
+          <h1 className='container-conteo-h1'>+20 MIL</h1>
+          <p className='container-conteo-p'>PACIENTES</p>
         </Col>
         <Col>
-          <h1>160</h1>
-          <p>M2 DE INSTALACIONES</p>
+          <h1 className='container-conteo-h1'>160</h1>
+          <p className='container-conteo-p'>M2 DE INSTALACIONES</p>
         </Col>
         <Col>
-          <h1>+70</h1>
-          <p>TRATAMIENTOS</p>
+          <h1 className='container-conteo-h1'>+70</h1>
+          <p className='container-conteo-p'>TRATAMIENTOS</p>
         </Col>
       </Row>
     </Container>
