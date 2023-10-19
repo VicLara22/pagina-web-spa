@@ -1,0 +1,32 @@
+.container-nosotros {
+    padding: 50px;
+    display: inline-flex;
+
+}
+
+.container-nosotros-img {
+    width: 650px;
+    height: 400px;
+}
+
+.container-nosotros-img img {
+    width: 650px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.container-nosotros-text{
+    padding: 80px;
+    width: 800px;
+}
+
+.container-nosotros-text h1{
+   font-size: 2rem;
+   color: black;
+   margin-bottom: 25px;
+}
+
+.container-nosotros-text p{
+    font-size: 1rem;
+    color: black;
+ }

@@ -4,6 +4,7 @@ import NavBar from '../../components/navBar/NavBar'
 import Card from '../../components/card/Card'
 import Modals from '../../components/card/modal/Modals';
 import Portada from '../../components/portada/Portada';
+import Nosotros from '../../components/sections/nosotros/Nosotros';
 
 function Home() {
   const [jsonData, setJsonData] = useState(null);
@@ -25,6 +26,7 @@ function Home() {
     <div>
       <NavBar />
       <Portada/>
+      <Nosotros/>
       {jsonData?.map((s) => (
         <Card
           key={s.id}
