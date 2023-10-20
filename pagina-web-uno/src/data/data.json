@@ -14,7 +14,7 @@
             "Masajes Descontracturantes",
             "Masajes con Piedras Calientes"
         ],
-        "img": "../assets/SPA.jpg"
+        "img": "assets/SPA.jpg"
     },
     {
         "id": 2,
@@ -28,7 +28,7 @@
             "Tratamiento Tensor Pro: Tratamiento combinado radiofrecuencia. Ondas de choque y body up indicado especialmente para zonas de flacidez",
             "Tratamiento de Celulitis: Ondas de choque y botas de presoterapia"
         ],
-        "img": "../assets/estetica-corporal.jpg"
+        "img": "assets/estetica-corporal.jpg"
     },
     {
         "id": 3,
@@ -40,7 +40,7 @@
             "Limpieza Facial Profunda: Con extracciones",
             "Peeling Mecánico y Velo de Colágeno"
         ],
-        "img": "../assets/cosmiatria.jpg"
+        "img": "assets/cosmiatria.jpg"
     },
     {
         "id": 4,
@@ -51,7 +51,7 @@
             "Reparación de uñas manos y pies",
             "Uñas esculpidas"
         ],
-        "img": "../assets/belleza-de-manos-y-pie.jpg"
+        "img": "assets/belleza-de-manos-y-pies.jpg"
     },
     {
         "id": 5,
@@ -60,7 +60,7 @@
         "tipos": [
             "Dermolight Láser Diodo: Equipo de última generación aprobado por Anmat. Trabaja con protocolos y supervisión medica permanente. Triple longitud de onda Sveltia. Todo tipo de vello. Altísima eficacia terapéutica del 80% a la 6 sesión. Tratamiento indoloro con el cabezal Ice Speed"
         ],
-        "img": "../assets/depilacion-definitiva.jpg"
+        "img": "assets/depilacion-definitiva.jpg"
     },
     {
         "id": 6,
@@ -73,7 +73,7 @@
             "Nutrición: Planes nutricionales integrales y a medida para acompañar las terapias. Nutrición detox. Nutrición vegetariana. Nutrición vegana",
             "Podología: Uñas enfermas o encarnadas. Terapias específicas para patologías del pie"
         ],
-        "img": "../assets/servicios-medicos.jpg"
+        "img": "assets/servicios-medicos.jpg"
 
     }
 ]

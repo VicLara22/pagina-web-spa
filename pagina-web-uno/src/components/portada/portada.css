@@ -3,7 +3,7 @@
     height: 100vh;
 }
 .container-portada-img{
-    background-image: url('../../assets/portada.jpg');
+    background-image: url('/assets/portada.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

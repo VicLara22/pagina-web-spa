@@ -1,6 +1,6 @@
 import React from 'react'
 import './centro.css'
-import img from '../../../assets/centro.jpg'
+import img from '/assets/centro.jpg'
 
 function Centro() {
   return (

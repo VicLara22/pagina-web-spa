@@ -1,6 +1,6 @@
 import React from 'react'
 import './nosotros.css'
-import img from '../../../assets/nosotros.jpg'
+import img from '/assets/nosotros.jpg'
 
 function Nosotros() {
     return (

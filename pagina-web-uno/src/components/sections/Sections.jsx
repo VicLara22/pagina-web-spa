@@ -2,6 +2,7 @@ import React from 'react'
 import Nosotros from './nosotros/Nosotros'
 import Centro from './centro/Centro'
 import Conteo from './conteo/Conteo'
+import Servicios from './servicios/Servicios'
 
 function Sections() {
   return (
@@ -9,6 +10,7 @@ function Sections() {
         <Nosotros/>
         <Centro/>
         <Conteo/>
+        <Servicios/>
     </div>
   )
 }
