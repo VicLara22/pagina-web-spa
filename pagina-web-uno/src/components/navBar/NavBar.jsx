@@ -37,7 +37,7 @@ function NavBar() {
             <div className="container-title-navBar">
                 {
                     links.map((t) => (
-                        <a>{/* eslint-disable-next-line jsx-a11y/anchor-is-valid */} 
+                        /* eslint-disable-next-line jsx-a11y/anchor-is-valid */ 
                         <Link
                             className="container-title-navBar-a"
                             to={t.to}
@@ -48,7 +48,7 @@ function NavBar() {
                             key={t.id}>
                             {t.title}
                         </Link>
-                        </a>
+                       
                     )
                     )
                 }
