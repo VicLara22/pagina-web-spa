@@ -6,6 +6,7 @@ import Centro from '../../components/sections/centro/Centro';
 import Servicios from '../../components/sections/servicios/Servicios';
 import Contact from '../../components/sections/contact/Contact';
 import Footer from '../../components/footer/Footer';
+import Conteo from '../../components/sections/conteo/Conteo';
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
       <Portada />
       <Nosotros/>
       <Centro/>
+      <Conteo/>
       <Servicios/>
       <Contact/>
       <Footer/>

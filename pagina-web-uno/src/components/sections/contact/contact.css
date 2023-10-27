@@ -1,5 +1,5 @@
 .container-contacto-title{
-    padding: 80px;
+    padding: 50px;
     width: auto;
 }
 
@@ -17,8 +17,9 @@
     flex-direction: column;
     padding-left: 180px;
     padding-right: 180px;
-    padding-bottom: 180px;
-    padding-top: 50px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    
 }
 
 form {
@@ -26,6 +27,7 @@ form {
     grid-template-columns: repeat(2, 1fr);
     width: 100%; 
     max-width:800px; 
+ 
     
 }
 
@@ -46,7 +48,7 @@ label {
 input {
     height: 35px;
     width: 300px;
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(255, 255, 255);
     color: black;
     border: 2px solid rgb(219, 219, 219);
     border-radius: 5px;
@@ -57,7 +59,7 @@ input {
 textarea{
     height: 125px;
     width: 300px;
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(255, 255, 255);
     color: black;
     border: 2px solid rgb(219, 219, 219);
     border-radius: 5px;
@@ -67,19 +69,19 @@ textarea{
 }
 
 .btnEnviar {
-    grid-column: span 2; /* Este estilo hará que el botón abarque ambas columnas */
+    grid-column: span 2; 
     display: flex;
     justify-content: center;
-    align-items: flex-end; /* Esto alineará el botón en la parte inferior */
+    align-items: flex-end; 
     text-align: center;
     margin-top: auto; 
 }
 
-button {
+.btnEnviar_btn {
     width: 200px;
     height: 30px;
     font-size: 1em;
-    background-color: #e4cf17;;
+    background-color: #3437f0;;
     border: none;
     border-radius: 20px;
     color: white;
@@ -87,10 +89,10 @@ button {
     transition: 0.5s;
 }
 
-button:hover{
+.btnEnviar_btn:hover{
     background-color: white;
-    color: #e4cf17;
-    border: 2px solid #e4cf17 ;
+    color: #3437f0;
+    border: 2px solid #3437f0 ;
     font-weight: 600;
 }
 span {

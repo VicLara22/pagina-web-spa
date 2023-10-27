@@ -4,7 +4,7 @@
     align-items: center;
     margin-bottom: 40px;
     height: 25vh;
-    background: rgb(253, 214, 188);
+    background: linear-gradient(to right, rgba(234, 0, 255, 0.5), rgba(162, 0, 255, 0.438));
 }
 
 .container-conteo-h1 {

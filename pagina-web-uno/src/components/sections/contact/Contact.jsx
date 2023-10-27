@@ -179,7 +179,7 @@ function Contact() {
                 )}
                    </div>
                 <div className='btnEnviar'>
-                    <button
+                    <button className='btnEnviar_btn'
                         type='submit'
                         disabled={errors.name || errors.lastName || errors.phone || errors.email || errors.message || errors.location || errors.asunto === "" ? true : false}
                     >ENVIAR</button>

@@ -1,7 +1,7 @@
 footer {
     height: 20vh;
     width: 100%;
-    background: linear-gradient(to right, rgb(234, 0, 255), rgb(162, 0, 255));    
+    background:white;  
 }
 
 .containerText {
@@ -14,7 +14,7 @@ footer {
 .containerText h1 {
     padding-bottom: 5px;
     padding-top: 40px;
-    color: white;
+    color: black;
     font-size: 1em;
 }
 

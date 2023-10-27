@@ -25,7 +25,7 @@ function Conteo() {
           <h1 className='container-conteo-h1'>+70</h1>
           <p className='container-conteo-p'>TRATAMIENTOS</p>
         </Col>
-      </Row>
+      </Row> 
     </Container>
     </div>
   )
