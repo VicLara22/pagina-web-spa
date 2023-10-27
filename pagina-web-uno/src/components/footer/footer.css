@@ -1,0 +1,120 @@
+footer {
+    height: 20vh;
+    width: 100%;
+    background: linear-gradient(to right, rgb(234, 0, 255), rgb(162, 0, 255));    
+}
+
+.containerText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.containerText h1 {
+    padding-bottom: 5px;
+    padding-top: 40px;
+    color: white;
+    font-size: 1em;
+}
+
+.whatsapp {
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:40px;
+  background-color:#25d366;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  z-index:100;
+}
+
+.icon{
+    margin-top:7px;
+    color: white;
+}
+
+.msj {
+    display: none;
+    opacity: 0;
+    width: 150px;
+    height: 40px;
+    position: fixed;
+    display: flex;
+    background-color: white;
+    border-radius: 20px 0px 20px 20px;
+    right: 0;
+    bottom: 1em;
+    padding: 1.5em;
+    padding-top: 0px;
+    margin-right: 7em;
+    font-size: 1em;
+    border: 1px solid black;
+    transition: opacity 0.8s;
+    z-index: 100;
+}
+
+.whatsapp:hover {
+    cursor: pointer;
+}
+
+.whatsapp:hover+.msj {
+    display: flex;
+    opacity: 1;
+}
+
+
+.redes-sociales-icon{
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.redes-sociales-icon{
+    cursor: pointer;
+}
+.instagram{
+    color: violet;
+    margin-right: 20px;
+}
+.facebook{
+    color: blue;
+}
+
+@media (min-width: 800px) {
+    .msj {
+        height: 15px;
+        width: auto;
+    }
+
+    .whatsapp {
+        position: fixed;
+        right: 1em;
+        bottom: 1em;
+
+    }
+}
+
+@media (max-width: 800px) {
+    .containerText {
+        display:flex;
+        flex-direction: column;
+    }
+    .msj {
+        position: static;
+        padding: 0.5em;
+        font-size: 0.8em;
+    }
+
+    .whatsapp {
+        position: static; 
+        font-size: 0.8em;
+        bottom: 0em;
+        margin-bottom: 0em;
+    }
+    .whatsapp i {
+        font-size: 1.5em;
+    }
+}
