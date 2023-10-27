@@ -24,8 +24,10 @@ function Servicios() {
   const baseUrl = '/assets';
 
   return (
-    <div>
-        
+    <div id='servicios'>
+      <div className='container-service-text'> 
+        <h1 className="container-service-h1">SERVICIOS</h1>
+        </div>
       {jsonData?.map((s) => (
         <Card
           key={s.id}

@@ -6,7 +6,7 @@ import './conteo.css'
 
 function Conteo() {
   return (
-    <div className='container-conteo'> 
+    <div id='conteo' className='container-conteo'> 
     <Container >
       <Row md={4}>
         <Col>

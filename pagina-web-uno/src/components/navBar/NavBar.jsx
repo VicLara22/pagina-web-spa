@@ -1,50 +1,60 @@
 import React from 'react'
-import  './navBar.css'
-
+import './navBar.css'
+import {Link} from 'react-scroll';
 function NavBar() {
 
     const links = [
         {
             id: '1',
-            title: 'NOSOTROS',
-            link: '/'
+            title: 'Nosotros',
+            to: 'nosotros'
+         
         },
         {
             id: '2',
-            title: 'CENTRO',
-            link: '/'
+            title: 'Centro',
+            to: 'centro'
+        
         },
         {
             id: '3',
-            title: 'SERVICIOS',
-            link: '/'
+            title: 'Servicios',
+            to: 'servicios'
         },
         {
             id: '4',
-            title: 'CONTACTO',
-            link: '/'
+            title: 'Contacto',
+            to: 'contacto'
         },
-        {
-            id: '5',
-            title: 'SOLICITAR TURNO',
-            link: '/'
-        }
+
     ]
 
-  return (
-    <div className='container-navBar'>
-        <div className="container-logo-navBar">
-            <h1 className="container-navBar-h1" >SPA</h1>
-        </div>
-        <div className="container-title-navBar">
+    return (
+        <div className='container-navBar'>
+            <div className="container-logo-navBar">
+                <h1 className="container-navBar-h1" >SPA</h1>
+            </div>
+            <div className="container-title-navBar">
                 {
-                    links.map((t) => ( 
-                        <a className="container-title-navBar-a" href={t.link} key={t.id}>{t.title}</a>
-                    ))
+                    links.map((t) => (
+                        <a>{/* eslint-disable-next-line jsx-a11y/anchor-is-valid */} 
+                        <Link
+                            className="container-title-navBar-a"
+                            to={t.to}
+                            spy={true}
+                            smooth={true}
+                            offset={-50}
+                            duration={200}
+                            key={t.id}>
+                            {t.title}
+                        </Link>
+                        </a>
+                    )
+                    )
                 }
+            </div>
         </div>
-    </div>
-  )
+    )
 }
 
 export default NavBar 

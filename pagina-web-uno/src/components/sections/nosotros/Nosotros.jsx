@@ -4,7 +4,8 @@ import img from '/assets/nosotros.jpg'
 
 function Nosotros() {
     return (
-        <div className='container-nosotros'>
+        <section  id="nosotros"> 
+        <div  className='container-nosotros'>
             <div className='container-nosotros-img'>
                 <img src={img} alt="nosotros" />
             </div>
@@ -14,6 +15,7 @@ function Nosotros() {
                 Nos enorgullece ser parte de tu bienestar y estamos comprometidos con tu salud a lo largo de los años. ¡Te invitamos a experimentar nuestra dedicación y profesionalismo!</p>
             </div>
         </div>
+        </section>
     )
 }
 
