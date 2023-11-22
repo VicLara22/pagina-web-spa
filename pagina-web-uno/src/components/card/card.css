@@ -5,7 +5,7 @@
 
 .container-card {
     width: 400px;
-    height: 400px;
+    height: 450px;
     margin-bottom: 20px;
 }
 
@@ -22,7 +22,7 @@ cursor: pointer;
 
 .container-card-img-img {
     width: 400px;
-    height: 400px;
+    height: 420px;
     border-radius: 10px;
 
 }
@@ -32,7 +32,7 @@ cursor: pointer;
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 100%;
+    width: 90%;
     background: linear-gradient(to right, rgba(234, 0, 255, 0.5), rgba(162, 0, 255, 0.438));
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
